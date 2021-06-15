@@ -1,25 +1,36 @@
 .page-header {
-    background-color: #00c2b8;
+    background-image:url(img_8174-1024x576.jpg);
+    background-size: contain;
     margin-top: 0;
-    padding: 20px 20px 20px 40px;
+    padding: 60px 20px 20px 40px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
     font-size: 36pt;
-    text-decoration: none;
+    font-weight: bold;
+    text-shadow    :
+     2px  2px 1px #003366,
+    -2px  2px 1px #003366,
+     2px -2px 1px #003366,
+    -2px -2px 1px #003366,
+     2px  0px 1px #003366,
+     0px  2px 1px #003366,
+    -2px  0px 1px #003366,
+     0px -2px 1px #003366;
 }
 
 .content {
     margin-left: 40px;
+
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: Comic Sans MS;
 }
 
 .date {
-    color: #00b7ce;
+    color: #5a00d1;
 }
 
 .save {
@@ -35,10 +46,20 @@ h1, h2, h3, h4 {
     float: right;
     font-size: 26pt;
     margin-right: 20px;
+    text-shadow    :
+     2px  2px 1px #003366,
+    -2px  2px 1px #003366,
+     2px -2px 1px #003366,
+    -2px -2px 1px #003366,
+     2px  0px 1px #003366,
+     0px  2px 1px #003366,
+    -2px  0px 1px #003366,
+     0px -2px 1px #003366;
 }
 
 .post {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
+    background-color:#ffffa4
 }
 
 .post h2 a, .post h2 a:visited {
